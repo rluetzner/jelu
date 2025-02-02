@@ -8,8 +8,8 @@ source "$(dirname "$0")/docker-common.sh" $1 $2
 # Push docker images (built previously)
 docker buildx build \
     --platform $PLATFORMS \
-    --cache-from wabayang/jelu:$DOCKER_CHANNEL \
-    --tag wabayang/jelu:$DOCKER_CHANNEL \
-    --tag wabayang/jelu:$1 \
+    --cache-from rluetzner/jelu:$DOCKER_CHANNEL \
+    --tag rluetzner/jelu:$DOCKER_CHANNEL \
+    --tag rluetzner/jelu:$1 \
     --file ./Dockerfile . \
     --push
