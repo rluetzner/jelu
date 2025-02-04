@@ -14,3 +14,5 @@ docker buildx build \
     --tag rluetzner/jelu:$DOCKER_CHANNEL \
     --tag rluetzner/jelu:$1 \
     --file ./Dockerfile .
+
+echo stuffn
