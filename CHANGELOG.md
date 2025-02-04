@@ -1,3 +1,10 @@
+## [0.67.0](https://github.com/rluetzner/jelu/compare/v0.66.4...v0.67.0) (2025-02-04)
+
+
+### Features
+
+* change stuff ([5a6a536](https://github.com/rluetzner/jelu/commit/5a6a53639ef370f62d963b09b19dbcaa9cd52f25))
+
 ## 1.0.0 (2025-02-04)
 
 
